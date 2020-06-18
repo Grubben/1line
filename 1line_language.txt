@@ -1,0 +1,11 @@
+Uses specific words like:
+new
+in
+out
+voc
+
+Written on the fly. Later, it can be processed to give you the vocab(voc) words.
+
+Using '\' will allow the user to use the special words without them being special
+
+voc will be able to be written anywhere, and it precedes the word that will be added. 
