@@ -1,5 +1,3 @@
-#!/Users/amc/.pyenv/versions/3.8.2/bin/python
-
 import os
 from sys import argv
 
@@ -7,10 +5,9 @@ from sys import argv
 olwd = os.getcwd()
 
 home = os.environ['HOME']
-# FIXX THIS!!!
+
 cwd = home + '/.1line'
 path = cwd
-
 
 
 os.chdir(path)
@@ -70,7 +67,6 @@ class Machine(object):
         else:
             if title not in forbidden and title not in ls:
                 print("A new parchment. It's title:", title)
-                print("remember, to leave write 'exit' or press 'ctrl-c'")
                 #self.title = title
                 self.scroll(title)
             elif title in ls:
@@ -89,6 +85,7 @@ class Machine(object):
 
     def write_loop(self):
         """A loop that asks for input and writes it to the scroll"""
+        print("remember: to leave write 'exit' or press 'ctrl-c'")
         line = input("> ")
         if line == 'exit':
             self.closer()
