@@ -1,9 +1,11 @@
-###### 1line
+# 1line
 #### __The line-by-line Program__
 
-1line is a shell program written in Python. It's main objective is to make simple note-taking faster and more convenient without forcing you to start up an application.
+1line is a shell program written in Python **Completely FOSS**. It's main objective is to make simple note-taking faster and more convenient without forcing you to start up an application.
 
-## Installation:
+**Completely and absolutely FOSS**
+
+##### Installation:
 ```
 pip3 install pyinstaller
 ```
@@ -14,7 +16,7 @@ pyinstaller --onefile 1line.py
 Your unix-executable file is in the "dist" folder
 
 
-## Usage:
+##### Usage:
 ```
 $ 1line
 
