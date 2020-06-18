@@ -6,7 +6,9 @@ from sys import argv
 
 olwd = os.getcwd()
 
-cwd = '~/.1line'
+home = os.environ['HOME']
+# FIXX THIS!!!
+cwd = home + '/.1line'
 path = cwd
 
 
