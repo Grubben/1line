@@ -4,7 +4,7 @@
 1line is a shell program written in Python **completely FOSS**. It's main objective is to make simple note-taking faster and more convenient without forcing you to start up an application.
 
 
-### Installation:
+## Installation:
 ```
 pip3 install pyinstaller
 ```
@@ -15,7 +15,7 @@ pyinstaller --onefile 1line.py
 Your unix-executable file is in the "dist" folder
 
 
-### Usage:
+## Usage:
 ```
 $ 1line
 
