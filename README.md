@@ -5,7 +5,7 @@
 
 ## Installation:
 ```
-pip install pyinstaller
+pip3 install pyinstaller
 ```
 Go to the directory that contains "1line.py"
 ```
