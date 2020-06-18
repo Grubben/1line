@@ -3,7 +3,6 @@
 import os
 from sys import argv
 
-"""           liner or 1liner or 1line or Scribbler ?! """
 
 olwd = os.getcwd()
 
