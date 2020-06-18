@@ -3,6 +3,7 @@
 
 1line is a shell program written in Python **completely FOSS**. It's main objective is to make simple note-taking faster and more convenient without forcing you to start up an application.
 
+Currently, only works on MacOS
 
 
 ## Installation:

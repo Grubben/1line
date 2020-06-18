@@ -7,7 +7,7 @@ from sys import argv
 
 olwd = os.getcwd()
 
-cwd = '/Users/amc/.1line'
+cwd = '~/.1line'
 path = cwd
 
 
