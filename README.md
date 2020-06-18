@@ -1,9 +1,20 @@
 ###### 1line
-### __The line-by-line Program__
+#### __The line-by-line Program__
 
 1line is a shell program written in Python. It's main objective is to make simple note-taking faster and more convenient without forcing you to start up an application.
 
-Usage:
+## Installation:
+```
+pip install pyinstaller
+```
+Go to the directory that contains "1line.py"
+```
+pyinstaller --onefile 1line.py
+```
+Your unix-executable file is in the "dist" folder
+
+
+## Usage:
 ```
 $ 1line
 
