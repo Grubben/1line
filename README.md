@@ -5,19 +5,6 @@
 
 Currently, only works on Unix platforms
 
-
-## Installation:
-```
-pip3 install pyinstaller
-```
-Go to the directory that contains "1line.py"
-```
-pyinstaller --onefile 1line.py
-```
-Your unix-executable file is in the "dist" folder
-
-
-
 ## Usage:
 ```
 $ 1line
@@ -37,6 +24,35 @@ $ 1line open
 
 $ 1line open biology
 ```
+
+
+## Installation:
+```
+pip3 install pyinstaller
+```
+Go to the directory that contains "1line.py"
+```
+pyinstaller --onefile 1line.py
+```
+Your unix-executable file is in the "dist" folder
+
+# For Unix-not MacOS:
+(I believe this is the correct method but beware, for I'm not tech savy)
+Move (or drag with the mouse) the file to '/bin' directory:
+```
+cd dist
+mv 1line /bin
+```
+
+# For Windows:
+In Progress
+
+# For MacOS:
+```
+cd dist
+mv 1line /usr/local/bin
+```
+
 
 Have fun with it, and contribute if you wish!
 

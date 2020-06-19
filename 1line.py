@@ -6,8 +6,8 @@ olwd = os.getcwd()
 
 home = os.environ['HOME']
 
-cwd = home + '/.1line'
-path = cwd
+nwd = home + '/.1line'
+path = nwd
 
 try:
     os.makedirs(path)
