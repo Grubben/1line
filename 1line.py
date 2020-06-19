@@ -9,12 +9,25 @@ home = os.environ['HOME']
 cwd = home + '/.1line'
 path = cwd
 
+try:
+    os.makedirs(path)
+    print("made '.1line' directory")
+except FileExistsError:
+    os.chdir(path)
+    print("changing to the '1line' directory")
+except:
+    print("Something wrong with the directories.")
+    raise SystemError
+else:
+    os.chdir(path)
 
-os.chdir(path)
 
 ls = os.listdir()
 # To take the first element in ls: ".DS_Store"
-ls.pop(0)
+try:
+    ls.pop(0)
+except:
+    pass
 
 # A list of all the possible commands
 commands = ['commands','add', 'list', 'read', 'open', 'remove']
