@@ -27,6 +27,8 @@ $ 1line open biology
 
 
 ## Installation:
+First make sure you have python3. Then:
+
 ```
 pip3 install pyinstaller
 ```
