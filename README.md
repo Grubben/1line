@@ -26,7 +26,7 @@ $ 1line open biology
 ```
 
 
-# Installation:
+## Installation:
 First make sure you have python3. Then:
 
 ```
@@ -38,25 +38,25 @@ pyinstaller --onefile 1line.py
 ```
 Your file is in the "dist" folder (wether it's a unix-executable or an exe)
 
-## For Unix-not MacOS:
+### For Unix-not MacOS:
 (I believe this is the correct method but beware, for I'm not tech savy)
+
 Move (or drag with the mouse) the file to '/bin' directory:
 ```
 cd dist
 mv 1line /bin
 ```
 
-## For Windows:
+### For Windows:
 Put the exe somewhere and make a PATH to it on the command prompt
 
-(I'm not sure how so Good Luck!)
+(I'm not sure how so good luck!)
 
-## For MacOS:
+### For MacOS:
 ```
 cd dist
 mv 1line /usr/local/bin
 ```
-
 
 Have fun with it, and contribute if you wish!
 
