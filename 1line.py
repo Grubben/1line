@@ -4,7 +4,8 @@ from sys import argv
 
 olwd = os.getcwd()
 
-home = os.environ['HOME']
+home = os.path.expanduser('~')
+
 
 nwd = home + '/.1line'
 path = nwd

@@ -3,7 +3,7 @@
 
 1line is a shell program written in Python **completely FOSS**. It's main objective is to make simple note-taking faster and more convenient without forcing you to start up an application.
 
-Currently, only works on Unix platforms
+Definitely works on Unix platforms; try your might on Windows
 
 ## Usage:
 ```
@@ -36,7 +36,7 @@ Go to the directory that contains "1line.py"
 ```
 pyinstaller --onefile 1line.py
 ```
-Your unix-executable file is in the "dist" folder
+Your file is in the "dist" folder (wether it's a unix-executable or an exe)
 
 # For Unix-not MacOS:
 (I believe this is the correct method but beware, for I'm not tech savy)
@@ -47,7 +47,9 @@ mv 1line /bin
 ```
 
 # For Windows:
-In Progress
+Put the exe somewhere and make a PATH to it on the command prompt
+
+(I'm not sure how so Good Luck!)
 
 # For MacOS:
 ```
