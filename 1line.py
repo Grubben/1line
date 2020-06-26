@@ -12,12 +12,12 @@ path = nwd
 
 try:
     os.makedirs(path)
-    print("made '.1line' directory")
+    #print("made '.1line' directory")
 except FileExistsError:
     os.chdir(path)
-    print("changing to the '1line' directory")
+    #print("changing to the '1line' directory")
 except:
-    print("Something wrong with the directories.")
+    #print("Something wrong with the directories.")
     raise SystemError
 else:
     os.chdir(path)

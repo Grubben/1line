@@ -1,7 +1,7 @@
 # 1line
 ### __The line-by-line Program__
 
-1line is a shell program written in Python **completely FOSS**. It's main objective is to make simple note-taking faster and more convenient without forcing you to start up an application.
+1line is a shell program written in Python. It's main objective is to make simple note-taking faster and more convenient without forcing you to start up an application.
 
 Definitely works on Unix platforms; try your might on Windows
 
